@@ -1,0 +1,162 @@
+body {
+    padding: 0px;
+    background-color: #6452D9;
+    font-family: 'Gill Sans', Verdana, Helvetica;
+}
+
+.bckgrnd {
+    background-color: #6452D9;
+    width: 100%;
+    height: 90%;
+}
+
+.nav {
+    background-color: #6452D9;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+}
+
+.bi {
+    color: #ffff;
+    width: 60px;
+}
+
+.bi:active {
+    color: #F26D3D;
+}
+
+.bi:hover {
+    color: #c8c8c8;
+}
+
+#kyla {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding: 5% 10%;
+}
+
+#mypic {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+small {
+    color: #F26D3D;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5%;
+    gap: 50px;
+}
+
+.container-2 {
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-basis: 50%;
+}
+
+.container-3 {
+    display: flex;
+    gap: 20px;
+    padding: 3%;
+    justify-content: left;
+}
+
+.bckgrndcolor {
+    background-color: #f3f3f3;
+    border-radius: 5px;
+}
+
+.bcolor-red {
+    background-color: #F25E5E;
+    color: #ffff;
+}
+
+.bcolor-orange {
+    background-color: #F26D3D;
+    color: #ffff;
+}
+
+.bcolor-yellow {
+    background-color: #F2C46D;
+    color: #ffff;
+}
+
+.bcolor-blue {
+    background-color: #3D9DD9;
+    color: #ffff;
+}
+
+li {
+    list-style-type: none;
+}
+
+#item-1 {
+    padding: 20px;
+    flex-basis: 45%;
+}
+
+#item-2 {
+    padding: 20px;
+    flex-basis: 55%;
+}
+
+#skills {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: left;
+}
+
+.educach {
+    margin-bottom: 5%;
+    text-align: left;
+}
+
+.grid {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    gap: 40px;
+}
+
+.g-col-4 {
+    color: #ffff;
+    padding: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    align-items: center;
+    border-radius: 10%;
+    width: 20%;
+}
+
+.card-title {
+    font-size: 80%;
+}
+
+.red-color {
+    background-color: #F25E5E;
+}
+
+.orange-color {
+    background-color: #F26D3D;
+}
+
+.yellow-color {
+    background-color: #F2C46D;
+}
+
+.blue-color {
+    background-color: #3D9DD9;
+}
+
+.card-title {
+    padding: 10px;
+}
